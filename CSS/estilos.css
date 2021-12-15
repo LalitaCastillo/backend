@@ -1,0 +1,422 @@
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			background: #323A46;
+			font-family: Calibri, Arial, sans-serif;
+		}
+		
+		
+		.container{
+			
+			margin: 0px auto;
+			max-width: 1300px;
+			
+		}
+		.container img{
+			width: 100%;
+			height: auto;
+		}
+		
+		nav{
+			background: #024656;
+			width: 100%;
+			max-width: 1048px;
+			margin: 10px auto;
+		}
+		nav ul li{
+			float: left;
+			overflow: hidden;
+		}
+		
+		
+		nav ul li span{
+			margin-right: 15px;
+		}
+		nav ul li a{
+			color: #fff;
+			padding: 10px;
+			display: block;
+		}
+		nav ul li a:hover{
+			background: #037e8c;
+		}
+		.menu_bar{
+			
+			width: 100%;
+		}
+		.clearfix{
+			clear: both;
+		}
+		#content{
+			float: left;
+			width: 80%;
+			padding: 20px;
+			background: #fff;
+			box-sizing: border-box;
+		}
+		aside{
+			float: left;
+			width: 20%;
+			padding: 10px;
+			background: #323A46;
+			box-sizing: border-box;
+			color: white;
+			
+		}
+		footer{
+			background: black;
+			color: white;
+			text-align: center;
+			height: 50px;
+			line-height: 50px;
+		}
+		.article{
+			color: black;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			padding-bottom: 15px;
+			border-bottom: 1px solid #eee;
+			width: 100%;
+			
+		}
+		
+		
+		.article h2{
+			font-size: 25px;
+		}
+		
+		.menu_bar .bt-menu{
+			display: block;
+			padding: 7px;
+			background: #024959;
+			color: #fff;
+			font-weight: bold;
+			font-size: 20px;
+			
+		}
+		.menu_bar span{
+			float: right;
+			font-size: 25px;
+		}
+		@media screen and (max-width: 800px){
+			#content{
+				width: 100%;
+			}
+			aside{
+				width: 100%;
+			}
+			nav{
+				width: 50%;
+				height: 100%;
+				display: flex;
+				margin: 0;
+				position: fixed;
+			}
+			nav ul li{
+				float: none;
+				border-bottom: 1px solid rgba(255, 255, 255, .3);
+			}
+		
+			
+		}
+.contenedor-slogan{
+
+	margin: 10px 0;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background: url(../Img/Banner.jpeg) no-repeat center center/cover;
+	display: grid;
+	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	grid-template-columns: 5% 30% 60% 5%;
+	grid-template-areas: 	"sidebar-1 sidebar-2 sidebar-3 sidebar-1";
+}
+.contenedor-slogan .sidebar-1{
+	background: rgba(0,0,0,0);
+
+}
+
+.contenedor-slogan .sidebar-2{
+	background: rgba(0,0,0,.6);
+
+}
+.contenedor-slogan .sidebar-3{
+	background: rgba(255,255,255,0);
+	
+}
+
+
+.contenedor-slogan h2{
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 0.75em;
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 10px black;
+
+}
+
+
+.contenedor-slogan .bannerlogocajas{
+	width: 40%;
+	margin: auto;
+}
+
+.contenedor-slogan .bannerlogocajas img{
+	width: 100%;
+}
+.bannerlogocajas img{
+	width: 50%;
+	display:block;
+margin:auto;
+}
+
+
+.contenedor-slogan h1{
+	background-color: rgba(8, 9, 40, .7); /*color de fondo celeste*/
+	color: rgba(255,255,255); /*color de letra*/
+	width: 90%;
+	margin: auto; /*centrar*/
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 1.2em;
+	/*border-color: rgb(153,124,43);*/
+	border-bottom-style: inset;
+	border: 1px solid #32A0E2;
+	/*font-weight: bold;*/
+	border-width: 1px; /*grodor borde del H1*/
+	border-radius: 7px;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	box-shadow: 2px 2px 1px 1px black;
+	text-shadow: 1px 1px rgba(0,0,0,0.25);
+
+}
+
+.contenedor-slogan h2{
+	width: 90%;
+	margin: auto;
+	color: rgba(93, 12, 28, 1);
+	text-shadow: 0 0 1px black;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 1em;
+	text-align: right;
+	padding-right: 0.5em;
+	margin-bottom: 5px;
+}
+
+.contenedor-slogan h4{
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	color: rgba(255, 255, 255, 1);
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+.contenedor-slogan h3{
+	width: 90%;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 1.15em;
+	color: white;
+	font-weight: 900px;
+	margin: auto;
+	text-align: center;
+	text-shadow: 3px 3px rgba(0,0,0,1);
+	border-top: 1px solid #eee;
+}
+
+.contenedor-slogan p{
+	display: flex;
+}
+
+.contenedor-slogan p .web{
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 900;
+	text-align: center;
+	-webkit-text-fill-color: rgba(1,31,84,1);
+	-webkit-text-stroke: 1px white;
+}
+
+.contenedor-slogan p .subweb{
+	font-size: 1em;
+	color: rgba(155,184,235);
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+	padding-left: 0.5em;
+	padding-top: 7px;
+	text-align: left;
+}
+.contenedor-slogan p .espacio{
+	font-size: .1em;
+}
+
+.cuadro-celeste{
+	text-align: right;
+	color: black;
+	font-weight: 900;
+	margin-top: 12px;
+
+}
+
+.cuadro-celeste .modulo{
+	background: rgba(166,166,166,.5);
+	border-radius: 5px;
+	padding: 0px 1em;
+	text-shadow: 0 2px 3px black;
+	margin-right: 10%;
+	box-shadow: 2px 2px 1px 1px black;
+
+}
+
+
+.cuadro-azul{
+	width: 90%;
+	margin: auto;
+	background: rgba(39,37,173,.9);
+	padding: 2px 5px;
+	color: white;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+	font-size: 0.9em;
+	box-shadow: 2px 2px 1px 1px black;
+	text-align: left;
+}
+
+.cuadro-X{
+	text-align: center;
+	color: #F0F0F0;
+	font-weight: 900;
+	font-size: 2.2em;
+
+}
+
+.cuadro-X .X{
+	background: rgba(50,58,70,.9);
+	border-radius: 8px;
+	padding: 0px 1em;
+	text-shadow: 0 2px 3px grey;
+	margin-right: 0%;
+	box-shadow: 2px 2px 1px 1px black;
+
+}
+.CENTRO{
+	text-align: center;
+	border-top: 1px solid #eee;
+	font-family: Century gothic,Calibri, Arial, sans-serif;
+	color: #464C85;
+	border-radius: 15px;
+	background: rgba(50,58,70,.1);
+	padding: 0px 1em;
+
+}
+.CENTRO2{
+	text-align: center;
+	border-top: 1px solid #eee;
+	font-family: Century gothic,Calibri, Arial, sans-serif;
+	color: white;
+	border-radius: 15px;
+	background: rgba(35,33,158,1);
+	padding: .5em 1em;
+	}
+.CENTROM1{
+	text-align: center;
+	border-top: 1px solid #eee;
+	font-family: Century gothic,Calibri, Arial, sans-serif;
+	color: white;
+	border-radius: 10px;
+	background: rgba(91,197,219,1);
+	padding: .5em 1em;
+	}
+.CENTROM2{
+	text-align: center;
+	border-top: 1px solid #eee;
+	font-family: Century gothic,Calibri, Arial, sans-serif;
+	color: white;
+	border-radius: 10px;
+	background: rgba(11,55,84,1);
+	padding: .5em 1em;
+	}
+.CENTROM3{
+	text-align: center;
+	border-top: 1px solid #eee;
+	font-family: Century gothic,Calibri, Arial, sans-serif;
+	color: white;
+	border-radius: 10px;
+	background: rgba(24,106,70,1);
+	padding: .5em 1em;
+	}
+.justificado{
+	text-align: justify;
+	border-top: 1px solid #eee;
+	font-family: Century gothic,Calibri, Arial, sans-serif;
+	color: black;
+	border-radius: 15px;
+	background: rgba(50,58,70,.1);
+	padding: 2em 3em;
+}
+.contenedor-exp-img-google{
+	width: 80%;
+	display:block;
+	margin:auto;
+	display: flex;
+}
+.contenedor2{
+    width: 100%;
+    height: auto;
+    background:rgb(0, 52, 113);
+    text-align: center;
+    color: white;
+}
+
+.contenedor-modulos{
+    background:#fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+.contenedores-mod{
+    width: 330px;
+    height: auto;
+    text-align: center;
+}
+
+.bannerlogocajas2{
+	width: 40%;
+	margin: auto;
+}
+.CENTRO3{
+	text-align: center;
+	font-family: Century gothic,Calibri, Arial, sans-serif;
+	color: white;
+	border-radius: 1px;
+	background: rgba(235,74,51,.7);
+	padding: 0px 1em;
+	}
+table {
+   width: 100%;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: center;
+   border-collapse: collapse;
+   
+   caption-side: bottom;
+}
+
+th {
+   background: #eee;
+}
+.silabo{
+	font-family: Calibri, Arial, sans-serif;	
+	background: white;
+	padding: 0px 1em;
+	}
